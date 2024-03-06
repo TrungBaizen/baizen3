@@ -2,26 +2,45 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-
+    <link rel="stylesheet" href="style1.css">
     <title>Sở thích của bạn</title>
 </head>
 <body>
-<h1>Sở thích của bạn</h1>
-<form>
-    <h2>Họ và tên</h2>
-    <input type="text" required><br>
-    <h2>Email</h2>
-    <input type="number" required><br>
-    <h2>Sở thích</h2>
-    <input type="checkbox" name="sở thích">Thể thao
-    <input type="checkbox" name="sở thích">Âm nhạc
-    <input type="checkbox" name="sở thích">Đọc sách
-    <input type="checkbox" name="sở thích">Lướt web
-    <input type="checkbox" name="sở thích">Chơi game
-    <input type="checkbox" name="sở thích">Điện ảnh
-    <input type="checkbox" name="sở thích">Du lịch<br>
-    <input type="button" value="Gửi thông tin" >
-    <input type="reset" value="Nhập lại">
-</form>
+<table style="border: 10px solid aqua ">
+    <tr>
+        <th colspan="4">SỞ THÍCH CỦA BẠN</th>
+    </tr>
+    <tr>
+        <td>Họ và tên</td>
+        <td colspan="3"><input type="text"></td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td colspan="3"><input type="email"></td>
+    </tr>
+    <tr>
+        <td>Sở thích</td>
+        <td style="color: coral"><input type="checkbox">Thể thao</td>
+        <td style="color: coral"><input type="checkbox">Âm nhạc</td>
+        <td style="color: coral"><input type="checkbox">Đọc sách</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td style="color: coral"><input type="checkbox">Lướt web</td>
+        <td style="color: coral"><input type="checkbox">Chơi gamec</td>
+        <td style="color: coral"><input type="checkbox">Điện ảnh</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td style="color: coral"><input type="checkbox">Du lịch</td>
+        <td colspan="2"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="button" name="Gửi thông tin" value="Gửi thông tin"></td>
+        <td><input type="reset" name="Nhập lại" value="Nhập lại"></td>
+        <td></td>
+    </tr>
+</table>
 </body>
 </html>
